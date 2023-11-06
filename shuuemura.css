@@ -614,7 +614,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
   }
+  .large-navigation-section li:hover {
+    transform: translateY(-2px);
+    color: #414141;
+  }
+
+  .underline:hover{
+    transform: translateY(-2px);
+    color: #414141;
+    border-bottom: 2px solid #ff43a1;
+    padding: 5px 0;
+  }
+  }
+  
   .large-navigation-section a {
     text-decoration: none;
     font-size: 14px;
@@ -624,7 +638,6 @@ footer {
   .large-navigation-section a:hover {
     color: #414141;
   }
-
   .large-navigation-section ul a.red-color {
     color: red;
   }

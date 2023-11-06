@@ -321,6 +321,7 @@ button.more:hover {
 
 footer {
   background-color: black;
+  position: relative;
 }
 
 .footer-container {
@@ -456,6 +457,23 @@ footer {
 .fa-brands.fa-line:hover {
   cursor: pointer;
 }
+
+.makeup {
+  position: fixed;
+  width: 100px;
+  aspect-ratio: 1;
+  right: 20px;
+  bottom: 30px;
+}
+
+.makeup-ask {
+  width: 100px;
+}
+
+.makeup-ask:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .banner {
     display: block;
@@ -621,14 +639,13 @@ footer {
     color: #414141;
   }
 
-  .underline:hover{
+  .underline:hover {
     transform: translateY(-2px);
     color: #414141;
     border-bottom: 2px solid #ff43a1;
     padding: 5px 0;
   }
-  }
-  
+
   .large-navigation-section a {
     text-decoration: none;
     font-size: 14px;
@@ -671,15 +688,4 @@ footer {
   button.more {
     width: 20%;
   }
-}
-.makeup-ask {
-  width: 100px;
-  aspect-ratio: 1;
-  position: fixed;
-  right: 10px;
-  bottom: 50px;
-}
-
-.makeup-ask:hover {
-  cursor: pointer;
 }

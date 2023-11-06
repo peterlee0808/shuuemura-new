@@ -150,6 +150,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 .small-logo {
   display: flex;
@@ -405,6 +406,13 @@ footer {
   padding: 30px 0;
 }
 
+.footer-list ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .copy {
   color: white;
   font-size: 12px;
@@ -501,6 +509,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    padding: 0 100px;
   }
   .button {
     display: none;
@@ -522,6 +531,7 @@ footer {
     margin: auto;
     font-size: 14px;
   }
+
   .footer-list {
     padding: 0 60px;
   }
@@ -538,6 +548,9 @@ footer {
   }
   .dog-pic {
     width: 227.5px;
+  }
+  .footer-list {
+    padding: 0 100px;
   }
 }
 
